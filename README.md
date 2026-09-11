@@ -1,5 +1,5 @@
 # MIMIC_WRAITH   👻 
-ECHO — Open-source CAN gateway firmware with WRAITH technology for builders. A working foundation for creating custom automotive CAN interfaces, signal translators, and vehicle integration modules.
+ECHO — CAN gateway firmware for WRAITH hardware. A working foundation for creating custom automotive CAN interfaces, signal translators, and vehicle integration modules.
 
 🔴 **Red Pill:** Build it yourself. The source is yours to explore.
 
