@@ -1,0 +1,111 @@
+==========================================================
+                MIMIC TEENSY 4.1 PIN ASSIGNMENTS 👻
+==========================================================
+// Created by AlxBilt on 8/12/26.
+// SPDX-License-Identifier: MPL-2.0
+
+CAN BUS
+----------------------------------------------------------
+CAN1 (Engine)
+  Pin 0   RX1
+  Pin 1   TX1
+
+CAN2 (Vehicle)
+  Pin 22  RX2
+  Pin 23  TX2
+
+CAN3 (Slave PCM)
+  Pin 30  RX3
+  Pin 31  TX3
+
+
+I²C BUS
+----------------------------------------------------------
+  • Logic Level
+Pin 18  SDA
+Pin 19  SCL
+
+Devices
+
+  • BMP388
+  • MCP4728 DAC
+  • MCP4728 DAC
+  
+
+
+SPI1 BUS
+----------------------------------------------------------
+Pin 11  MOSI
+Pin 12  MISO
+Pin 13  SCK
+
+Device
+  • MAX31856 (EGT)
+
+
+ANALOG INPUTS
+----------------------------------------------------------
+A10 (Pin 24)
+  • Ford Cruise Switch ADC
+
+
+DIGITAL I/O
+----------------------------------------------------------
+Pin 6
+  • Cummins Fan Tach Input
+
+Pin 7
+  • Cummins Fan PWM Control
+
+
+RESERVED
+----------------------------------------------------------
+Pin 2
+Pin 4
+Pin 5
+  • Reserved (Pre-2005 Speedometer Input)
+
+
+AVAILABLE ANALOG INPUTS
+----------------------------------------------------------
+A0  (Pin 14)
+A1  (Pin 15)
+A2  (Pin 16)
+A3  (Pin 17)
+A4  (Pin 18) *
+A5  (Pin 19) *
+A6  (Pin 20)
+A7  (Pin 21)
+A8  (Pin 22) *
+A9  (Pin 23) *
+A11 (Pin 25)
+A12 (Pin 26)
+A13 (Pin 27)
+A14 (Pin 38)
+A15 (Pin 39)
+A16 (Pin 40)
+A17 (Pin 41)
+
+ Teensy 4.1 Analog Input Pin Reference
+----------------------------------------------------------
+Analog   Physical Pin   ADC Module
+A0       14             ADC1 & ADC2
+A1       15             ADC1 & ADC2
+A2       16             ADC1 & ADC2
+A3       17             ADC1 & ADC2
+A4       18             ADC1 & ADC2
+A5       19             ADC1 & ADC2
+A6       20             ADC1 & ADC2
+A7       21             ADC1 & ADC2
+A8       22             ADC1 & ADC2
+A9       23             ADC1 & ADC2
+A10      24             ADC1 Only             | FORD CRUISE BUTTONS
+A11      25             ADC1 Only
+A12      26             ADC2 Only
+A13      27             ADC2 Only
+A14      38             ADC2 Only
+A15      39             ADC2 Only
+A16      40             ADC1 & ADC2
+A17      41             ADC1 & ADC2
+
+* Shared with I²C / CAN pins. Verify before use.

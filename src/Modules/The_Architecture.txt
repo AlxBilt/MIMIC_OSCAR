@@ -1,0 +1,65 @@
+//
+//    👻 
+//
+// Created by AlxBilt on 12/1/2025
+// SPDX-License-Identifier: MPL-2.0
+                 
+                     ECHO BASELINE
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+         CANDriver                  Scheduler
+              │                         │
+       ┌──────┼──────┐                  │
+       │      │      │                  │
+     CAN1   CAN2   CAN3                 │
+       │      │      │                  │
+       ▼      ▼      ▼                  │
+   Cummins   Ford    Ford PCM            │
+     Bus     Vehicle    Bus              │
+       │      │      │                  │
+       └──────┴──────┴───────┐          │
+                              ▼          │
+                       GatewayModule ◄───┘
+                              │
+                              ▼
+                       BUILD CAN FRAME
+                              │
+                              ▼
+//                     CANDriver::send()
+
+
+
+
+                  
+
+                OPEN SOURCE MODEL
+                     │
+                     ▼
+              DIY COMMUNITY
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+     "I'll build it"      "Build it for me"
+          │                     │
+          ▼                     ▼
+   Community project      PAID FIRMWARE
+                                │
+                                ▼
+                         MIMIC PRODUCT
+
+                         
+                         
+Customer:
+
+"Why don't you just give me the source for the paid firmware?"
+
+The answer is simple:
+
+"The ECHO Firmware Baseline is open source. 
+The custom engineering that I perform for your vehicle is a commercial product."
+
+ 👻
+
+ Red Pill: Build it yourself. The source is yours to explore.  🔴
+ Blue Pill: Use a finished commercial implementation.          🔵
