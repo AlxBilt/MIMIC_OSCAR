@@ -39,7 +39,7 @@ ECHO — Open-source CAN gateway firmware with WRAITH technology for builders. A
                      │
           ┌──────────┴──────────┐
           │                     │
-     "I'll build it"      "Build it for me"
+     "You'll build it."      "We'll Build it for you."
           │                     │
           ▼                     ▼
    Community project      PAID FIRMWARE
