@@ -47,3 +47,20 @@ Current application: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstr
                                 │
                                 ▼
                          MIMIC PRODUCT
+
+              WRAITH
+                │
+                ▼
+         "Here's the road."
+                │
+                ▼
+             ECHO
+                │
+        ┌───────┼────────┐
+        ▼       ▼        ▼
+      READ    PROCESS   BUILD
+        │       │        │
+        └───────┴────────┘
+                │
+                ▼
+          YOUR PROJECT
