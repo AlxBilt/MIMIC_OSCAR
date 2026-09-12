@@ -1,6 +1,6 @@
 # MIMIC_WRAITH   👻 
 OSCAR — CAN gateway firmware for WRAITH hardware. A working foundation for creating custom automotive CAN interfaces, signal translators, and vehicle integration modules. 
-Current commerical application: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstroke Superduty chassis powered by ECHO.  
+There is a separate commercial application not included here for: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstroke Superduty chassis powered by ECHO firmware. See our business page for more details.
 
 🔴 **Red Pill:** Build it yourself. The source is yours to explore.
 
