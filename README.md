@@ -7,7 +7,7 @@ Current application: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstr
 🔵 **Blue Pill:** Use a finished commercial implementation delivered as `.hex` file.
 
 ```text
-                    ECHO BASELINE
+                    OSCAR BASELINE
                           │
              ┌────────────┴────────────┐
              │                         │
@@ -18,49 +18,43 @@ Current application: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstr
       CAN1  CAN2  CAN3                 │
        │     │     │                   │
        ▼     ▼     ▼                   │
-    Cummins Ford  Ford PCM             │
+  ENGINE    BODY   PCM                 │
       Bus   Vehicle   Bus              │
        │     │     │                   │
        └─────┴─────┴──────────┐        │
                               ▼        │
-                        GatewayModule ◄─┘
+                        SendModule ◄─┘
                               │
                               ▼
                        BUILD CAN FRAME
                               │
                               ▼
-                       CANDriver::send()
+                            send()
 
 /************************************************/
 
-              OPEN SOURCE MODEL
+                MODEL OPTIONS
                      │
                      ▼
-              DIY COMMUNITY
                      │
           ┌──────────┴──────────┐
           │                     │
      "You'll build it."      "We'll Build it for you."
           │                     │
+OSCAR_PUTO DE PARTIDA          ECHO
+          │                     │
+          │                     │
+   OPEN SOURCE             PRIVATE
+   COMMUNITY               COMMERCIAL
+        │                     │
+        ▼                     ▼
+  Users build it        We provide service
+  for each other       / finished solutions
+          │                     │
           ▼                     ▼
-   Community project      PAID FIRMWARE
+OSCAR Community project      PAID ECHO FIRMWARE
                                 │
                                 ▼
-                         MIMIC PRODUCT
+                         MIMIC ECHO PRODUCT
 
-              WRAITH
-                │
-                ▼
-         "Here's the road."
-                │
-                ▼
-             ECHO
-                │
-        ┌───────┼────────┐
-        ▼       ▼        ▼
-      READ    PROCESS   BUILD
-        │       │        │
-        └───────┴────────┘
-                │
-                ▼
-          YOUR PROJECT
+          
