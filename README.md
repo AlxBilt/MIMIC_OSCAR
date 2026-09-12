@@ -1,5 +1,6 @@
 # MIMIC_WRAITH   👻 
-ECHO — CAN gateway firmware for WRAITH hardware. A working foundation for creating custom automotive CAN interfaces, signal translators, and vehicle integration modules.
+ECHO — CAN gateway firmware for WRAITH hardware. A working foundation for creating custom automotive CAN interfaces, signal translators, and vehicle integration modules. 
+Current application: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstroke Superduty chassis.  
 
 🔴 **Red Pill:** Build it yourself. The source is yours to explore.
 
