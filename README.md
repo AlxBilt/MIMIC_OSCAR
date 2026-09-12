@@ -11,7 +11,7 @@ Current application: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstr
                           │
              ┌────────────┴────────────┐
              │                         │
-          CANDriver                Scheduler
+          CANDriver                    │
              │                         │
        ┌─────┼─────┐                   │
        │     │     │                   │
