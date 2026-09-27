@@ -1,6 +1,8 @@
 # MIMIC_OSCAR_Punto-de-Partida   👻 
 OSCAR_Punto-de-Partida — A CAN gateway firmware for use with WRAITH 3000 hardware. A working foundation for creating custom automotive CAN interfaces, signal translators, and vehicle integration modules. 
 
+OSCAR — Open Source CAN Automotive Research.
+
 *There is ECHO, a separate commercial application not included here for: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstroke Superduty chassis. See our business page for more details.
 
 🔴 **Red Pill:** Build it yourself. The source is yours to explore. We provide no ongoing support for OSCAR.
