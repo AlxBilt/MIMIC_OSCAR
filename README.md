@@ -5,9 +5,9 @@ OSCAR_Punto-de-Partida — A CAN gateway firmware for use with WRAITH 3000 hardw
 
 *There is ECHO, a separate commercial application not included here for: 2006+ Cummins drivetrain converted into 2005+ Ford Powerstroke Superduty chassis. See our business page for more details.
 
-🔴 **Red Pill:** Build it yourself. The source is yours to explore. We provide no ongoing support for OSCAR.
+🔴 **Option 1:** Build it yourself. The source is yours to explore. We provide no ongoing support for OSCAR.
 
-🔵 **Blue Pill:** Use a finished modular commercial implementation delivered as `.hex` file.
+🔵 **Option 2:** Use a finished modular commercial implementation delivered as `.hex` file.
 
 ```text
                     OSCAR BASELINE
